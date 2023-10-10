@@ -1,1 +1,1 @@
-# tipkit-demo
+# TipKitSample
