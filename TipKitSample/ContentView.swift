@@ -34,9 +34,11 @@ struct ContentView: View {
                             })
                         }
                     }
-                    .onAppear(perform: {
-                        FavouriteTip.numberOfTimesVisited.donate()
-                    })
+                    .onAppear {
+                        Task {
+                            await FavouriteTip.numberOfTimesVisited.donate()
+                        }
+                    }
                 }
             }
         }
