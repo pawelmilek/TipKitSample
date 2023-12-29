@@ -27,7 +27,7 @@ struct FavouriteTip: Tip {
 
     var rules: [Rule] {
 //        [#Rule(Self.$showTip) { $0 == true } ]
-        [#Rule(Self.numberOfTimesVisited) { $0.donations.count > 3 }]
+        [#Rule(Self.numberOfTimesVisited) { $0.donations.count > 2 }]
     }
 
     var options: [TipOption] {
