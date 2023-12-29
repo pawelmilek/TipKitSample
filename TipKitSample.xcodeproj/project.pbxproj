@@ -13,6 +13,8 @@
 		E25546162A77E807005324DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25546152A77E807005324DB /* Preview Assets.xcassets */; };
 		E255461D2A77EAA1005324DB /* FavouriteTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E255461C2A77EAA1005324DB /* FavouriteTip.swift */; };
 		E255461F2A77F309005324DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E255461E2A77F309005324DB /* README.md */; };
+		E2F2D3C22B3EDE3C007B4D4E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2D3C12B3EDE3C007B4D4E /* InformationTip.swift */; };
+		E2F2D3C42B3EDE44007B4D4E /* LocationsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2D3C32B3EDE44007B4D4E /* LocationsTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E25546152A77E807005324DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E255461C2A77EAA1005324DB /* FavouriteTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTip.swift; sourceTree = "<group>"; };
 		E255461E2A77F309005324DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2F2D3C12B3EDE3C007B4D4E /* InformationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTip.swift; sourceTree = "<group>"; };
+		E2F2D3C32B3EDE44007B4D4E /* LocationsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E255460E2A77E805005324DB /* TipKitSampleApp.swift */,
-				E255461C2A77EAA1005324DB /* FavouriteTip.swift */,
 				E25546102A77E805005324DB /* ContentView.swift */,
+				E2F2D3C52B3EDE4C007B4D4E /* Tips */,
 				E25546122A77E807005324DB /* Assets.xcassets */,
 				E25546142A77E807005324DB /* Preview Content */,
 			);
@@ -71,6 +75,16 @@
 				E25546152A77E807005324DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2F2D3C52B3EDE4C007B4D4E /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				E2F2D3C12B3EDE3C007B4D4E /* InformationTip.swift */,
+				E2F2D3C32B3EDE44007B4D4E /* LocationsTip.swift */,
+				E255461C2A77EAA1005324DB /* FavouriteTip.swift */,
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E255461D2A77EAA1005324DB /* FavouriteTip.swift in Sources */,
+				E2F2D3C42B3EDE44007B4D4E /* LocationsTip.swift in Sources */,
 				E25546112A77E805005324DB /* ContentView.swift in Sources */,
+				E2F2D3C22B3EDE3C007B4D4E /* InformationTip.swift in Sources */,
 				E255460F2A77E805005324DB /* TipKitSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,6 +15,7 @@ struct TipKitSampleApp: App {
             ContentView()
                 .task {
                     do {
+                        try Tips.resetDatastore()
                         try Tips.configure([
                             .displayFrequency(.immediate),
                             .datastoreLocation(.applicationDefault)
